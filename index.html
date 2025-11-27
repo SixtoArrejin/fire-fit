@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Fit Suplementos | Corrientes</title>
+    
+    <link id="theme-style" rel="stylesheet" href="style1.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;400;700&family=Oswald:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        .theme-switcher-btn {
+            background-color: #333;
+            color: #fff;
+            border: 2px solid #FF5722;
+            padding: 5px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-left: 15px;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-family: sans-serif;
+            z-index: 9999;
+        }
+        .theme-switcher-btn:hover {
+            background-color: #FF5722;
+            color: white;
+        }
+        /* Ajuste para móvil */
+        @media (max-width: 768px) {
+            .theme-switcher-btn {
+                margin: 10px 0; /* Un poco de espacio en el menú móvil */
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="fire-accent">FIRE</span> FIT
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#educacion">Info Útil</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-switcher-btn">
+                        <i class="fas fa-palette"></i> Cambiar Estilo (1/5)
+                    </button>
+                </li>
+                <li><a href="#contacto" class="btn-nav">Contacto</a></li>
+            </ul>
+
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content container">
+            <h1>TE MOSTRAMOS EL CAMINO AL <span class="text-accent">ÉXITO</span></h1>
+            <p>Tu socio en suplementación deportiva, equipamiento y asesoría integral en Corrientes Capital.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/message/B7C7RHK65BSXG1" class="btn btn-primary"><i class="fab fa-whatsapp"></i> Asesoría Personalizada</a>
+                <a href="#productos" class="btn btn-secondary">Ver Catálogo</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="nosotros" class="section-padding about">
+        <div class="container about-grid">
+            <div class="about-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Entrenamiento intenso" class="about-img">
+            </div>
+            <div class="about-text">
+                <h4 class="sub-title">NUESTRA EVOLUCIÓN</h4>
+                <h2 class="section-title">NUEVA IMAGEN, MISMO <span class="text-accent">COMPROMISO</span></h2>
+                <blockquote class="blockquote">"A veces, para crecer hay que volver a empezar."</blockquote>
+                <p>En <strong>Fire Fit</strong> dimos un nuevo paso. Nos renovamos para ayudarte a alcanzar tu mejor versión con una atención cercana y productos de máxima calidad. Somos de Corrientes, y entendemos lo que necesitás para tu proceso.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <strong>+5</strong> Marcas Líderes
+                    </div>
+                    <div class="stat-item">
+                        <strong>2</strong> Puntos de Retiro
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section-padding bg-alt services">
+        <div class="container">
+             <h2 class="section-title text-center">NUESTROS SERVICIOS INTEGRALES</h2>
+             <p class="text-center section-intro">No solo vendemos productos, te acompañamos en el proceso.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-prescription-bottle-alt"></i></div>
+                    <h3>Suplementación</h3>
+                    <p>Proteínas, creatinas, quemadores y vitaminas de las mejores marcas nacionales e importadas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Equipamiento</h3>
+                    <p>Accesorios y elementos deportivos para llevar tu entrenamiento en casa o gimnasio al siguiente nivel.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-apple-alt"></i></div>
+                    <h3>Planes Nutricionales</h3>
+                    <p>Asesoría en alimentación adaptada a tus objetivos específicos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-running"></i></div>
+                    <h3>Planes de Entrenamiento</h3>
+                    <p>Rutinas personalizadas diseñadas para maximizar tus resultados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding alliance-banner text-white">
+        <div class="container alliance-flex">
+            <div class="alliance-text">
+                <span class="badge-accent">PARTNER OFICIAL</span>
+                <h2>ENTRENAMIENTO FUNCIONAL AL AIRE LIBRE</h2>
+                <p>En alianza con <strong>Doble AA Funcional</strong>. Sumate a clases grupales llenas de energía y comunidad en Corrientes.</p>
+                <a href="https://www.instagram.com/doble.aa.funcional" target="_blank" class="btn btn-primary btn-sm">Ver en Instagram <i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="alliance-visual">
+                 <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1375&q=80" alt="Clase funcional al aire libre">
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="section-padding products">
+        <div class="container">
+            <h2 class="section-title text-center">CATÁLOGO PRINCIPAL</h2>
+            <p class="text-center section-intro mb-5">Trabajamos con: <strong>Star, Nutrilab, ENA, Gentech, Gold Nutrition, One Fit.</strong></p>
+
+            <div class="product-grid">
+                <a href="https://wa.me/message/B7C7RHK65BSXG1" class="product-card">
+                    <img src="https://images.unsplash.com/photo-1593095948071-474c5cc2989d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Proteína Whey">
+                    <div class="product-info">
+                        <h3>Proteínas</h3>
+                        <p>Whey, Isolate, Blends.</p>
+                        <span class="btn-link">Consultar <i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://wa.me/message/B7C7RHK65BSXG1" class="product-card">
+                    <img src="https://images.unsplash.com/photo-1622248976378-6556ab2fb901?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Creatina Polvo">
+                    <div class="product-info">
+                        <h3>Creatinas</h3>
+                        <p>Monohidratada y Micronizada.</p>
+                        <span class="btn-link">Consultar <i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://wa.me/message/B7C7RHK65BSXG1" class="product-card">
+                    <img src="https://images.unsplash.com/photo-1611073738336-529606a96433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1376&q=80" alt="Aminoacidos BCAA">
+                    <div class="product-info">
+                        <h3>Recuperación & Energía</h3>
+                        <p>BCAA, Glutamina, Pre-entrenos.</p>
+                        <span class="btn-link">Consultar <i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://wa.me/message/B7C7RHK65BSXG1" class="product-card">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1430&q=80" alt="Vitaminas y Salud">
+                    <div class="product-info">
+                        <h3>Bienestar General</h3>
+                        <p>Multivitamínicos, Colágeno, Magnesio, Testofull.</p>
+                        <span class="btn-link">Consultar <i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="text-center mt-5">
+                <a href="https://wa.me/message/B7C7RHK65BSXG1" class="btn btn-primary btn-lg">Solicitar Lista de Precios Completa <i class="fas fa-file-alt"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="educacion" class="section-padding bg-alt education">
+        <div class="container">
+            <h2 class="section-title text-center">RINCÓN DEL CONOCIMIENTO</h2>
+            <p class="text-center section-intro mb-5">Información clave para que elijas sabiamente.</p>
+            
+            <div class="edu-container">
+                <div class="edu-box">
+                    <div class="edu-header">
+                        <i class="fas fa-bolt"></i>
+                        <h3>TODO SOBRE LA CREATINA</h3>
+                    </div>
+                    <div class="edu-body">
+                        <ul>
+                            <li>Ideal para deportes explosivos y de fuerza en cortos periodos.</li>
+                            <li>Aumenta la fuerza, el volumen muscular y la resistencia.</li>
+                            <li class="highlight-item"><strong>¿Diferencia Micronizada vs Monohidratada?</strong> Ambas ofrecen los mismos beneficios. La micronizada tiene partículas más pequeñas, se disuelve mejor.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="edu-box">
+                    <div class="edu-header">
+                        <i class="fas fa-dna"></i>
+                        <h3>TODO SOBRE LA PROTEÍNA</h3>
+                    </div>
+                    <div class="edu-body">
+                        <ul>
+                            <li>Nutriente esencial vital para construir y reparar músculos.</li>
+                            <li>Mejora significativamente la recuperación post-entrenamiento.</li>
+                            <li class="highlight-item">Ayuda a mantener la masa muscular mientras se pierde grasa (déficit calórico).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section-padding contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">CÓMO COMPRAR</h2>
+                    <p>Hacemos tu proceso de compra simple y flexible en Corrientes Capital.</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt text-accent"></i>
+                        <div>
+                            <h4>Puntos de Retiro</h4>
+                            <p>📍 Julio Verne (Entre Yugoslavia y J.J. Vallejos)</p>
+                            <p>📍 Plaza Evita (Av. Sarmiento y Av. Maipú) - 19h a 21h</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-truck text-accent"></i>
+                        <div>
+                            <h4>Envíos</h4>
+                            <p>Coordinamos el envío a tu ubicación (costo aparte).</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-wallet text-accent"></i>
+                        <div>
+                            <h4>Medios de Pago</h4>
+                            <p>Efectivo, Transferencia, Mercado Pago. Tarjetas (10% rec.).</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?ixlib=rb-4.0.3&auto=format&fit=crop&w=1631&q=80" alt="Mapa de ubicación">
+                     <div class="map-overlay">
+                        <a href="https://wa.me/message/B7C7RHK65BSXG1" class="btn btn-primary">Coordinar Pedido <i class="fab fa-whatsapp"></i></a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3><span class="fire-accent">FIRE</span> FIT</h3>
+                <p>Suplementos</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/firefit_suplementos" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://wa.me/message/B7C7RHK65BSXG1" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+        <div class="text-center copyright">
+             <p>© 2023 Fire Fit Suplementos. Corrientes, Argentina.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
